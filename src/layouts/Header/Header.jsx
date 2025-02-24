@@ -1,11 +1,13 @@
 import React from 'react'
 import { Navbar } from '../Navbar/Navbar'
-import './Header.css'
+import { Itemtitle } from '../../components/Itemtitle/Itemtitle'
+
 
 export const Header = () => {
   return (
-    <header className='font-serif grid h-48 grid-cols-2 place-content-between gap-4'>
-        <h1 className='text-sky-300'>Introducción a React 2025</h1>
+    <header className='flex w-[100vw] h-[5rem] bg-blue-950 items-center place-content-between p-[1rem] text-xl'>
+        
+       <Itemtitle content='Introducción React 2025'/>
         <Navbar />
     </header>
   )

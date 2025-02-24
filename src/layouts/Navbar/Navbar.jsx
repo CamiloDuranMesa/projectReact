@@ -1,19 +1,15 @@
 import React from 'react'
 
+import { ItemNavbar } from '../../components/ItemNavbar/ItemNavbar'
+
 export const Navbar = () => {
   return (
     <nav>
-    <ul>
-      <li>
-          <a href="">Clase1</a>
-      </li>
-      <li>
-          <a href="">Clase2</a>
-      </li>
-      <li>
-          <a href="">Clase3</a>
-      </li>
-    </ul>
+      <ul className=' flex gap-2.5'>
+        <ItemNavbar content='Clase 1'></ItemNavbar>
+        <ItemNavbar content='Clase 2'></ItemNavbar>
+        <ItemNavbar content='Clase 3'></ItemNavbar>
+      </ul>
   </nav>
   )
 }

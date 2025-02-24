@@ -1,14 +1,10 @@
 import React from "react";
 
-import { Header } from "./layouts/Header/Header";
+import { Home } from "./Pages/Home/Home";
 
 export const App = () =>{
 
   return(
-    <>
-        <Header />
-        <main></main>
-        <footer></footer>
-    </>
+    <Home/>
   )
 }
