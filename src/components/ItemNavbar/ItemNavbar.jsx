@@ -1,9 +1,10 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
-export const ItemNavbar = ({content, className}) => {
+export const ItemNavbar = ({content, className, route}) => {
   return (
     <li className={className}>
-        <a href="">{content}</a>
+        <NavLink to={route}>{content}</NavLink>
     </li>
   )
 }

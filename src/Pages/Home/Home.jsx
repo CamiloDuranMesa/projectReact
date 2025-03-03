@@ -6,9 +6,7 @@ import { Footer } from '../../layouts/Footer/Footer'
 export const Home = () => {
   return (
         <>
-            <Header />
             <Main />
-            <Footer />
         </>
   )
 }
